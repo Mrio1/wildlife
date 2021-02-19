@@ -1,0 +1,88 @@
+@import "./fonts";
+
+$dark: #333333;
+$white: #f7f7f7;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+    background: #b11b1bbb;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: rgba(24, 179, 24, 0.363);
+}
+
+.header {
+    max-width: 1440px;
+    &__inner {
+        padding: 19px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+    }
+    /* &__nav {
+
+    } */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    &__text {
+        margin-left: 15px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 60px;
+        
+        text-transform: uppercase;
+        color: $white;
+    }
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 480px;
+}
+.nav__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    list-style: none;
+}
+.nav__item {
+}
+.nav__link {
+    font-family: 'OpenSans';
+    font-size: 23px;
+    line-height: 23px;
+    color: $white;
+    text-decoration: none;
+}
+.nav__icon {
+    font-size: 0;
+    line-height: 0;
+}
+
+.button {
+    padding: 8px 23px;
+    border: 2px solid #CD6326;
+    border-radius: 5px;
+}
